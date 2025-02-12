@@ -1,3 +1,122 @@
+@256
+D=A
+@SP
+M=D
+@Sys.init_RETURN_0 // call Sys.init 0
+D=A
+@SP
+A=M
+M=D
+@SP
+M=M+1
+@LCL
+D=M
+@SP
+A=M
+M=D
+@SP
+M=M+1
+@ARG
+D=M
+@SP
+A=M
+M=D
+@SP
+M=M+1
+@THIS
+D=M
+@SP
+A=M
+M=D
+@SP
+M=M+1
+@THAT
+D=M
+@SP
+A=M
+M=D
+@SP
+M=M+1
+@0
+D=A
+@5
+D=D+A
+@SP
+D=M-D
+@ARG
+M=D
+@SP
+D=M
+@LCL
+M=D
+@Sys.init
+0;JMP
+(Sys.init_RETURN_0)
+@256 // push constant 256
+D=A
+@SP
+A=M
+M=D
+@SP
+M=M+1
+@SP // pop pointer 0
+M=M-1
+A=M
+D=M
+@R3
+M=D
+@300 // push constant 300
+D=A
+@SP
+A=M
+M=D
+@SP
+M=M+1
+@SP // pop pointer 1
+M=M-1
+A=M
+D=M
+@R4
+M=D
+@400 // push constant 400
+D=A
+@SP
+A=M
+M=D
+@SP
+M=M+1
+@SP // pop pointer 2
+M=M-1
+A=M
+D=M
+@R5
+M=D
+@500 // push constant 500
+D=A
+@SP
+A=M
+M=D
+@SP
+M=M+1
+@SP // pop pointer 3
+M=M-1
+A=M
+D=M
+@R6
+M=D
+@600 // push constant 600
+D=A
+@SP
+A=M
+M=D
+@SP
+M=M+1
+@SP // pop pointer 4
+M=M-1
+A=M
+D=M
+@R7
+M=D
 @10 // push constant 10
 D=A
 @SP
