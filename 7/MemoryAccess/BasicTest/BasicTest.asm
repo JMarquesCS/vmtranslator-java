@@ -91,7 +91,7 @@ A=M
 D=M
 @R5
 M=D
-@500 // push constant 500
+@3000 // push constant 3000
 D=A
 @SP
 A=M
@@ -104,7 +104,7 @@ A=M
 D=M
 @R6
 M=D
-@600 // push constant 600
+@3010 // push constant 3010
 D=A
 @SP
 A=M

@@ -21,7 +21,7 @@
             "type": "java",
             "name": "Launch App",
             "request": "launch",
-            "args": "C:\\Users\\emanu\\vmtranslator-java\\7\\MemoryAccess\\PointerTest\\PointerTest.vm",
+            "args": ["C:\\Users\\emanu\\vmtranslator-java\\7\\MemoryAccess\\BasicTest\\BasicTest.vm"],
             "mainClass": "br.ufma.ecp.App",
             "projectName": "vmtranslator"
         }

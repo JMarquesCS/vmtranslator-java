@@ -1,16 +1,20 @@
-// Inicialização do SP e segmentos
-push constant 256   // Endereço inicial da pilha
-pop pointer 0       // Define SP para 256
-push constant 300   // Endereço inicial de LCL
-pop pointer 1       // Define LCL
-push constant 400   // Endereço inicial de ARG
-pop pointer 2       // Define ARG
-push constant 500   // Endereço inicial de THIS
-pop pointer 3       // Define THIS
-push constant 600   // Endereço inicial de THAT
-pop pointer 4       // Define THAT
+// Inicializa o Stack Pointer (SP) e os segmentos corretamente
+push constant 256   
+pop pointer 0       // SP começa em 256
 
-// Executa pop e push commands.
+push constant 300   
+pop pointer 1       // LCL começa em 300
+
+push constant 400   
+pop pointer 2       // ARG começa em 400
+
+push constant 3000   
+pop pointer 3       // THIS começa em 3000
+
+push constant 3010   
+pop pointer 4       // THAT começa em 3010
+
+// Teste de acesso à memória
 push constant 10
 pop local 0
 
@@ -28,7 +32,7 @@ pop that 5
 pop that 2
 
 push constant 510
-pop temp 6
+pop temp 6  // Temp 6 (R11) está dentro do intervalo válido
 
 push local 0
 push that 5
