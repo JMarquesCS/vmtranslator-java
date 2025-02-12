@@ -21,7 +21,7 @@
             "type": "java",
             "name": "Launch App",
             "request": "launch",
-            "args": "C:\\Users\\jmarques\\Desktop\\UFMA\\compiladores\\vmtranslator-java\\8\\FunctionCalls\\FibonacciElement",
+            "args": "C:\\Users\\emanu\\vmtranslator-java\\7\\MemoryAccess\\PointerTest\\PointerTest.vm",
             "mainClass": "br.ufma.ecp.App",
             "projectName": "vmtranslator"
         }
